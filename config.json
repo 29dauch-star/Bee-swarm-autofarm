@@ -1,0 +1,47 @@
+{
+  "app": {
+    "name": "Bee Swarm Auto Farmer",
+    "version": "1.0.0",
+    "author": "29dauch-star"
+  },
+  "farming": {
+    "enabled": false,
+    "mode": "smart",
+    "sleepMode": true,
+    "fieldDelay": 500,
+    "aiEnabled": true,
+    "autoUpgrade": true,
+    "resourcePriority": [
+      "honey",
+      "xp",
+      "nectar",
+      "pollen"
+    ]
+  },
+  "ai": {
+    "enabled": true,
+    "decisionModel": "neural-net",
+    "learningRate": 0.01,
+    "updateInterval": 1000,
+    "maxDecisionTime": 100
+  },
+  "ios": {
+    "deltaCompatible": true,
+    "websocketPort": 8080,
+    "autoConnect": true,
+    "reconnectAttempts": 5,
+    "reconnectDelay": 2000
+  },
+  "ui": {
+    "theme": "dark",
+    "showAnalytics": true,
+    "notificationsEnabled": true,
+    "compactMode": false
+  },
+  "performance": {
+    "maxCPUUsage": 5,
+    "batteryOptimization": true,
+    "networkOptimization": true,
+    "memoryLimit": 256
+  }
+}
